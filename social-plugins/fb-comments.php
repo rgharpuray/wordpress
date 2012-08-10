@@ -61,7 +61,7 @@ function fb_comments_automatic($content) {
 
 						$params[$param] = $val;  
 					}
-
+  
 					$content .= fb_get_comments( $params );
 				}
 			}
