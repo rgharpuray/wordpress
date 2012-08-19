@@ -21,7 +21,7 @@ function fb_hide_wp_comments_homepage() {
 }
 
 /*Handling of saving comments coming from fb social plugin, into the WP DB*/
-function fb_comment_rule() {
+function fb_comment_rule() {  
 	add_rewrite_rule( '^fb-save-comment/?', 'index.php?fb-save-comment=true', 'top' );
 }
 
